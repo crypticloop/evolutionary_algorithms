@@ -26,6 +26,10 @@ def main():
     cir.setFill(color_rgb(255,255,0))
     cir.draw(win)
 
+    poly = Polygon(Point(0,0), Point(20,20),Point(20, 0))
+    poly.setFill(color_rgb(127,50,80))
+    poly.draw(win)
+
 
     win.getMouse()
     win.close()
